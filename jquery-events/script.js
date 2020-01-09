@@ -1,6 +1,13 @@
 $(document).ready(function() {
  
 
+    
+     $("#bottom_button").hide();
+        $("#button_bottom").click(function() {
+            $(this).hide();
+        });
+         
+
  	$("#stream1_btn").on("click", function() {
  		$(".stream1").removeClass('highlight_stream');
 		$(".stream2").removeClass('highlight_stream');
