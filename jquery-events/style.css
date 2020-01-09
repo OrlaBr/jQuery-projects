@@ -138,6 +138,11 @@ li{
   border: solid 5px #ccc;
 }
 
+.h2hover {
+    color:#00bfff;
+    font-size: 10%;
+}
+
 
 @media screen and (max-width: 700px){
 	ul{
